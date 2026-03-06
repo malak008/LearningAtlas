@@ -1,0 +1,106 @@
+title,link,type,level,tags
+Python full course,https://youtu.be/K5KVEU3aaeQ?si=v716-076TI0OK462,video,beginner,python
+CS50x,https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science,course,beginner,comp-sci
+Machine Learning,https://youtu.be/i_LwzRVP7bg?si=jvkPZuuDPPCMQlKQ,video,beginner,ML
+Machine Learning,https://youtu.be/jGwO_UgTS7I?si=bnznZLVEbGcRxjzz,video,intermediate,ML
+Javascript Algorithms,https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures,blog,beginner,Javascript
+Python Crash Course Tutorial,https://www.learnpython.org/,interactive,beginner,python
+Python for Everybody Course,https://www.coursera.org/specializations/python,course,beginner,python
+JavaScript Basics,https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/,interactive,beginner,javascript
+JavaScript.info Guide,https://javascript.info/,article,beginner,javascript
+Responsive Web Design,https://www.freecodecamp.org/learn/responsive-web-design/,interactive,beginner,html
+Web Development Bootcamp,https://www.udemy.com/course/the-web-developer-bootcamp/,course,beginner,web
+Intro to AI,https://www.edx.org/course/artificial-intelligence-ai,course,beginner,ai
+Machine Learning Crash Course,https://developers.google.com/machine-learning/crash-course,interactive,beginner,ml
+Data Science with Python,https://www.datacamp.com/courses/intro-to-data-science-in-python,course,beginner,data
+Data Visualization with Tableau,https://www.tableau.com/learn/training/20201,video,beginner,data
+Algebra Basics,https://www.khanacademy.org/math/algebra,interactive,beginner,math
+Calculus 1 Course,https://ocw.mit.edu/courses/calculus,lecture,intermediate,math
+Physics Classroom Lessons,https://www.physicsclassroom.com/,article,beginner,physics
+Khan Academy Physics,https://www.khanacademy.org/science/physics,interactive,beginner,physics
+Organic Chemistry I,https://www.khanacademy.org/science/organic-chemistry,interactive,intermediate,chemistry
+Intro to Inorganic Chemistry,https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S,video,beginner,chemistry
+Introduction to Biology,https://www.biointeractive.org/,interactive,beginner,biology
+Genetics Fundamentals,https://www.khanacademy.org/science/biology/heredity,interactive,beginner,biology
+Neurosbiology,https://www.coursera.org/learn/neurobiology,course,beginner,neurobiology
+Brain Myths,https://youtu.be/eDQquPtqMZs?si=1Mb_-NF3dlJChb8V,video,beginner,neuroscience
+World History Patterns,https://www.khanacademy.org/humanities/world-history,interactive,beginner,history
+Crash Course World History,https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9,video,beginner,history
+Physical Geography,https://www.nationalgeographic.org/education/physical-geography/,article,beginner,geography
+Countries of the World,https://www.worldatlas.com/,interactive,beginner,geography
+Duolingo French,https://www.duolingo.com/course/fr/en/Learn-French,interactive,beginner,french
+Deutsch Lernen with DW,https://www.dw.com/en/learn-german/s-2469,interactive,beginner,german
+Music Theory Fundamentals,https://www.musictheory.net/,interactive,beginner,music
+Beginner Guitar Lessons,https://www.youtube.com/playlist?list=PLFgquLnL59anNXuf1M4uZI3BIJd9F7lF1,video,beginner,music
+Drawing Basics,https://www.drawspace.com/,interactive,beginner,art
+Watercolor Techniques,https://www.youtube.com/watch?v=eN8d9NnVlE4,video,beginner,art
+Graphic Design Basics,https://www.canva.com/learn/design-elements/,article,beginner,design
+UX Design Course,https://www.coursera.org/specializations/google-ux-design,course,beginner,ux/ui
+Creative Writing Course,https://www.edx.org/course/creative-writing,course,beginner,writing
+Writing Better Essays,https://writingcenter.unc.edu/tips-and-tools/essay-writing/,article,intermediate,writing
+Literature Overview,https://www.poetryfoundation.org/,article,beginner,literature
+Classic Novels Summaries,https://www.sparknotes.com/,article,beginner,literature
+Intro to Philosophy,https://www.philosophybasics.com/,article,beginner,philosophy
+Ethics & Logic,https://www.coursera.org/learn/ethics-logic,course,intermediate,philosophy
+Psychology Fundamentals,https://www.apa.org/education/k12/psychological-science,article,beginner,psychology
+Social Psychology Course,https://www.coursera.org/learn/social-psychology,course,intermediate,psychology
+Sociology 101,https://www.khanacademy.org/test-prep/sat/social-sciences,interactive,beginner,sociology
+Culture and Society,https://www.sociologyguide.com/,article,intermediate,sociology
+Economics Principles,https://www.khanacademy.org/economics-finance-domain,interactive,beginner,economics
+Finance & Macro,https://www.coursera.org/learn/macro-economics,course,intermediate,economics
+Entrepreneurship Basics,https://www.sba.gov/learning-center,interactive,beginner,business
+Startup Guide,https://www.ycombinator.com/library,article,intermediate,business
+Personal Finance,https://www.investopedia.com/personal-finance-4427768,article,beginner,finance
+Crypto Explained,https://www.binance.vision/,video,beginner,crypto
+Marketing Strategy,https://www.hubspot.com/marketing-resources,article,intermediate,marketing
+Social Media Marketing,https://www.coursera.org/specializations/social-media-marketing,course,beginner,marketing
+Productivity Habits,https://jamesclear.com/habits,article,beginner,productivity
+Focus & Time Management,https://www.youtube.com/watch?v=BHh654_7CQA,video,beginner,productivity
+Basic Cooking Skills,https://www.bbcgoodfood.com/howto/guide/basic-cooking-skills,article,beginner,cooking
+Baking Fundamentals,https://www.kingarthurbaking.com/learn,interactive,beginner,baking
+Fitness for Beginners,https://www.youtube.com/watch?v=7PCFYNQ4OXg,video,beginner,fitness
+Strength Training Guide,https://www.bodybuilding.com/content/get-started.html,article,beginner,fitness
+Nutrition Basics,https://www.choosemyplate.gov/,interactive,beginner,health
+Mental Wellness Tips,https://www.mentalhealth.gov/,article,beginner,health
+Mindfulness Meditation,https://www.mindful.org/meditation/,article,beginner,meditation
+Guided Meditation Videos,https://www.youtube.com/playlist?list=PLui6Eyny-UzwxbWXS37Y4b0pO64OBa7aR,video,beginner,meditation
+Travel Guide Series,https://www.lonelyplanet.com/articles,article,beginner,travel
+Best Destinations Videos,https://www.youtube.com/playlist?list=PL5D0HD1l9Zuhav_Qs6rYFUXZ_iW0t5y04,video,beginner,travel
+Photography Basics,https://www.photographycourse.net/,interactive,beginner,photography
+Photo Editing Tutorials,https://www.adobe.com/creativecloud/photography.html,video,intermediate,photography
+Video Making Tips,https://www.videomaker.com/,article,beginner,video
+YouTube Filming Guide,https://creatoracademy.youtube.com/,interactive,beginner,video
+Game Design Fundamentals,https://www.coursera.org/learn/game-design,course,beginner,gaming
+Esports Overview,https://www.redbull.com/int-en/gaming,article,beginner,gaming
+Intro to Robotics,https://www.robotevents.com/robotics-101.html,article,beginner,robotics
+Arduino Projects Guide,https://www.arduino.cc/en/Tutorial/HomePage,interactive,beginner,robotics
+Electronics Basics,https://www.allaboutcircuits.com/,article,beginner,electronics
+Raspberry Pi Tutorials,https://projects.raspberrypi.org/,interactive,beginner,electronics
+3D Modeling for Beginners,https://www.tinkercad.com/learn,interactive,beginner,3d
+3D Printing Guide,https://www.makerbot.com/learn/,article,beginner,3d
+DIY Crafts Tutorials,https://www.diyncrafts.com/,article,beginner,diy
+Handmade Projects Videos,https://www.youtube.com/playlist?list=PLHxVtT0lRPdOYYNWbO2jRUVpUQ4hFJZWt,video,beginner,diy
+Sewing for Beginners,https://www.sewing.org/,interactive,beginner,sewing
+Fashion Design Basics,https://www.voguepatterns.com/education,article,beginner,fashion
+Indoor Gardening Guide,https://www.gardeningknowhow.com/,article,beginner,gardening
+Plant Care Basics,https://www.rhs.org.uk/plants,interactive,beginner
+Astronomy Guide,https://www.nasa.gov/stem/forstudents,article,beginner,astronomy
+Stargazing Tips,https://www.skyandtelescope.com/,interactive,beginner,astronomy
+Environmental Science Basics,https://www.epa.gov/education,article,beginner,environment
+Climate Change Explained,https://climate.nasa.gov/,interactive,beginner,environment
+Government & Politics,https://www.c-span.org/,video,intermediate,politics
+Policy Basics,https://www.brookings.edu/topic/policy-101/,article,intermediate,politics
+Law Basics,https://www.law.cornell.edu/,article,beginner,law
+Legal Case Studies,https://www.oyez.org/,interactive,intermediate,law
+Public Speaking Tips,https://www.toastmasters.org/find-a-club,interactive,intermediate,debate
+Debate Skills Guide,https://www.americandebate.org/,article,intermediate,debate
+Career Planning Toolkit,https://www.themuse.com/advice,article,beginner,career
+Interview Preparation Guide,https://www.indeed.com/career-advice/interviewing,article,intermediate,career
+Teaching Methods Overview,https://www.edutopia.org/,article,intermediate,teaching
+Tutoring Strategies,https://www.khanacademy.org/teachers,interactive,intermediate,teaching
+History of Science,https://www.sciencehistory.org/,article,intermediate,history
+Great Scientists Biographies,https://www.britannica.com/biographies,article,beginner,history
+DIY Electronics Projects,https://www.instructables.com/,interactive,beginner,diy
+Beginner Coding Projects,https://scratch.mit.edu/,interactive,beginner,diy
+Memory Techniques Guide,https://www.mindtools.com/,article,beginner,fun
+Speed Reading Basics,https://www.youtube.com/watch?v=ZmIoGJKC2Ug,video,beginner,fun
