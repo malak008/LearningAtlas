@@ -1,19 +1,35 @@
 import { useState } from "react";
+
 export default function Home() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const handleSearch = async () => {
-    if (!query) return;
+    if (!query.trim()) return;
+
     setLoading(true);
+
     try {
-      const res = await fetch(`http://localhost:3000/search?q=${query}`);
+      const res = await fetch(`/api/search-ai?q=${encodeURIComponent(query)}`);
+
+      if (!res.ok) {
+        throw new Error("API request failed");
+      }
+
       const data = await res.json();
-      setResults(data);
+
+      if (Array.isArray(data)) {
+        setResults(data);
+      } else {
+        setResults([]);
+      }
+
     } catch (err) {
-      console.error(err);
+      console.error("Search error:", err);
+      setResults([]);
     }
+
     setLoading(false);
   };
 
@@ -23,9 +39,10 @@ export default function Home() {
     }
   };
 
-
   return (
     <div className="relative overflow-hidden min-h-screen bg-[#F5F0E1] p-6 md:p-12 font-sans">
+
+      {/* Background Animation */}
       <div className="pointer-events-none fixed inset-0 overflow-hidden z-0">
         <img src="/bgelements/1.png" alt="" className="falling-item item-1" />
         <img src="/bgelements/2.png" alt="" className="falling-item item-2" />
@@ -34,7 +51,6 @@ export default function Home() {
         <img src="/bgelements/5.png" alt="" className="falling-item item-6" />
         <img src="/bgelements/6.png" alt="" className="falling-item item-7" />
         <img src="/bgelements/7.png" alt="" className="falling-item item-8" />
-
       </div>
 
       <div className="relative z-10">
@@ -54,6 +70,7 @@ export default function Home() {
             placeholder="Type something to learn..."
             className="p-3 w-full md:w-96 rounded-md border border-[#001F54] focus:outline-none focus:ring-2 focus:ring-[#4B0000]"
           />
+
           <button
             onClick={handleSearch}
             className="bg-[#4B0000] text-[#FDF6E3] px-6 py-3 rounded-md hover:bg-[#6B0A0A] transition w-full md:w-auto"
@@ -63,12 +80,19 @@ export default function Home() {
         </div>
 
         {/* Loading */}
-        {loading && <p className="text-center text-[#001F54] mb-4">Loading...</p>}
+        {loading && (
+          <p className="text-center text-[#001F54] mb-4">
+            Searching resources...
+          </p>
+        )}
 
-        {/* Results List */}
+        {/* Results */}
         <ul className="max-w-3xl mx-auto space-y-4">
+
           {!loading && results.length === 0 && query && (
-            <li className="text-center text-[#001F54]">No results found.</li>
+            <li className="text-center text-[#001F54]">
+              No results found.
+            </li>
           )}
 
           {results.map((r, idx) => (
@@ -84,15 +108,16 @@ export default function Home() {
               >
                 {r.title}
               </a>
+
               <p className="text-[#001F54] text-sm mt-1">
                 [{r.type}] - Level: {r.level} - Tags: {r.tags}
               </p>
             </li>
           ))}
+
         </ul>
 
       </div>
-      {/* END: relative z-10 content wrapper */}
 
     </div>
   );
