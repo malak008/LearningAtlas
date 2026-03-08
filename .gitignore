@@ -226,3 +226,10 @@ dist/
 build/
 
 *.log
+
+backend/data/resources-embeddings.json
+frontend/.env.local
+backend/.env.local
+/.env.local
+.env.local
+.env.local/
