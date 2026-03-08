@@ -9,7 +9,7 @@ const openai = new OpenAI({
 
 const resourcesPath = path.join(
   process.cwd(),
-  "data/resources-embedding.json"
+  "data/resources-embeddings.json"
 );
 
 let resources = [];
