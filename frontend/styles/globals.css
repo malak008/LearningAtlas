@@ -89,3 +89,45 @@
   animation-duration: 13s;
   animation-delay: -12s;
 }
+
+
+@font-face {
+  font-family: 'Faith';
+  src: url('/bgelements/faith.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Relationship of mélodrame';
+  src: url('/bgelements/Relationship of mélodrame.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Utendo-bold';
+  src: url('/bgelements/Utendo-Bold.ttf');
+  font-weight: normal;
+  font-style: bold;
+}
+
+.seekthe {
+  font-size: 100px;
+  font-style: normal;
+  color: #001F54;
+  text-align: center;
+}
+
+
+.uncharted {
+  font-family: 'Relationship of mélodrame';
+  font-style: italic;
+  color: #4B0000;
+  font-size: 110px;
+  text-align: center;
+  margin-top: -70px;
+  margin-left: -40px;
+
+}
