@@ -131,7 +131,8 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-[#001F54]">
           Learning Atlas 🔍🗺
         </h1>
-
+          <h1 class="seekthe">Seek the</h1>
+          <h1 class="uncharted">Uncharted</h1>
         {/* Search Bar */}
         <div className="flex justify-center mb-8 flex-col md:flex-row items-center gap-4">
           <input
